@@ -28,6 +28,7 @@ Next to it on the board there are some SMD1206 resistor and ferrite bead arrays.
   - [2. Preparation](https://github.com/borti4938/n64adv2_pcb#2-preparation)
   - [3. Solder Work](https://github.com/borti4938/n64adv2_pcb#3-solder-work)
   - [4. Put Everything Together](https://github.com/borti4938/n64adv2_pcb#4-put-everything-together)
+- [Installation with UltraPIF](https://github.com/borti4938/n64adv2_pcb#installation-with-ultrapif)
 - [Jumper Description](https://github.com/borti4938/n64adv2_pcb#jumper-description)
 
 ## Checklist: How to build the project
@@ -226,6 +227,50 @@ Secure the N64 with two or three screws and make a small test to see if everythi
 Do not forget to put in the Jumper Pak or Expansion Pak, otherwise you won't see a picture at all.
 
 If everything works fine, close the whole shell.
+
+
+## Installation with UltraPIF
+
+This guide assumes that the UltraPIF will be installed after the N64Adv2.
+However, other installation orders are possible, too - i.e. UltraPIF first and then N64Adv2 or both alongside.
+There are not described, here.
+For the ease of debugging, installation one after the other is always recommended.
+
+Also, it is not described, how to open and close the N64.
+
+### 1. Remove PIF-NUS
+
+To remove the PIF-NUS, remove reset and controller connections, first.
+
+![](./doc/img/UltraPIF/remove_ctrl_rst.jpg)
+
+The remove the PIF-NUS.
+
+### 2. Install UltraPIF Adapter Board
+
+Put the UltraPIF board into its place.
+Connect clock and mode wires and if you want, the RGB led board.
+More details on that can be found in the [UltraPIF Repository](https://github.com/jago85/UltraPIF_Hardware/wiki/Installation).
+
+![](./doc/img/UltraPIF/ultra_pif_adapter.jpg)
+
+### 3. Connect Flex Cable
+
+Once the UltraPIF Adapter sits in its place, you can reconnect the reset and controller connections of the flex cable.
+
+For the controller connection, you can use the _CON_ pad on the adapter.
+Do not forget to connect 3.3V if U1 is on your flex cable.
+
+For the reset connection you have to go for pin 27 on the adapter.
+**DO NOT USE THE _RST_ PAD!** as it acts as an input only.
+Fallback functions won't be available if you do so.
+Check the connection for shorts to adjacent pins.
+
+![](./doc/img/UltraPIF/flex_reconnect.jpg)
+
+### 4. Done
+
+Put the UltraPIF on the UltraPIF Adapter board.
 
 
 ## Jumper Description
