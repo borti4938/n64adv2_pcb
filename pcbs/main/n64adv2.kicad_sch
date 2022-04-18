@@ -1,0 +1,842 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid c58960d9-4cac-4036-ad2e-1aef26946dae)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 87.63 25.4) (size 26.67 37.465) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 01172b30-4940-4805-b545-a15bc4c1c378)
+    (property "Sheet name" "n64adv2_adv7513_power" (id 0) (at 87.63 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "n64adv2_3.kicad_sch" (id 1) (at 87.63 63.4496 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 29.21 25.4) (size 26.67 36.83) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0a742bb2-0657-47bc-9dea-e70308e1113a)
+    (property "Sheet name" "n64adv2_logic" (id 0) (at 29.21 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "n64adv2_1.kicad_sch" (id 1) (at 29.21 62.8146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 58.42 25.4) (size 26.67 37.465) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 32e16eb1-1376-41dc-855b-91a51fa589a6)
+    (property "Sheet name" "n64adv2_fpga_power" (id 0) (at 58.42 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "n64adv2_2.kicad_sch" (id 1) (at 58.42 63.4496 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "#"))
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a" (page "#"))
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6" (page "#"))
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378" (page "#"))
+  )
+
+  (symbol_instances
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/32a267be-7d09-4fc0-92b3-879ef08c2c00"
+      (reference "#GND01") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/3d449522-83a2-4a5a-9bde-b31c1824732b"
+      (reference "#GND02") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/270362a3-8950-4f77-98e4-bac313381ddd"
+      (reference "#GND03") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/72220e21-cffc-4d1b-b705-d0627d1aa080"
+      (reference "#GND04") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/dc006734-5eba-43ed-a599-0387633a0c3f"
+      (reference "#GND05") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/124c09a8-124f-4901-9b0a-4c3e13c42c9e"
+      (reference "#GND06") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/050d588d-ac5c-4040-88ce-7a2d860568e9"
+      (reference "#GND07") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/06e097c0-3078-4b51-976b-3e2d594f4373"
+      (reference "#GND08") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/0b1a71c3-e09d-4ef0-89b0-db61108da5e8"
+      (reference "#GND09") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/69c52ca7-b898-4fa8-b83f-12c50fbcea1a"
+      (reference "#GND010") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/636ebc7a-e4e3-4797-86b8-6a1ead86a6d6"
+      (reference "#GND011") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/7e10c94a-7591-4892-9351-18ebe562ea30"
+      (reference "#GND012") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/c17299c3-8f60-4082-9be0-bbabc66e38fd"
+      (reference "#GND013") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/8ed86da9-91c5-4159-bec7-07dc491fa279"
+      (reference "#GND014") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/c61b62f0-0adc-4230-9006-9b609c54ab78"
+      (reference "#GND015") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/5fae7ddc-63f6-4502-9be5-a7e8d46e8c5d"
+      (reference "#GND016") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/2c4cd8f5-49c1-4528-a193-0d34c4c44f2c"
+      (reference "#GND017") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/1b0c8f08-284d-4341-b01b-d852beef6156"
+      (reference "#GND018") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/fcd4e06b-2675-4606-a0e4-dbc3cd5775d6"
+      (reference "#GND019") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/531279c0-34b1-4a3f-903e-0e74c9a65a51"
+      (reference "#GND020") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/33150f27-98b3-4b2a-92cc-16b50b335e66"
+      (reference "#GND021") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/911e095e-8926-48ad-844e-151fd6fadf2f"
+      (reference "#GND022") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/a22c1fb7-8715-487c-821c-69e66c161956"
+      (reference "#GND023") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/dccaa679-56a5-4109-b744-515d53cc66b4"
+      (reference "#GND024") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/b9890ce2-de52-430e-938c-895f6f5da64e"
+      (reference "#GND025") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/4e7f077b-b549-4a6c-88a8-b7e8876537d4"
+      (reference "#GND026") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/83973a35-fec2-48af-bf67-671eb44e4636"
+      (reference "#GND027") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/81615618-6bbd-42ed-8136-8ac4ae65afca"
+      (reference "#GND028") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/dea17859-4b35-4115-a09c-975f56c2272b"
+      (reference "#GND029") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/c002ad88-760c-4144-8b40-796e60dfda02"
+      (reference "#GND030") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/d77ee948-16e9-475a-86b0-90edc83948cf"
+      (reference "#GND031") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/1526cdae-300d-4efe-ac6c-4501232b31fb"
+      (reference "#GND032") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/22c59815-9d35-4ac7-962e-eeb16c0fa3b3"
+      (reference "#GND033") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/7a90775c-1fe6-4f36-9f90-6ac91a02dbe1"
+      (reference "#GND034") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/c50a0deb-6e72-4137-92d6-9f84151d3368"
+      (reference "#GND035") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/d7109d2f-efe5-423e-acf8-6b5aed411201"
+      (reference "#GND036") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/1cc418bb-686a-47ca-aad1-60ae49ff4f74"
+      (reference "#GND037") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/bfc508cd-4b05-4aa9-b232-f1206189e950"
+      (reference "#GND038") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/05f9ec85-3bd2-499e-90ac-77ba12899f5c"
+      (reference "#GND039") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/7821cb42-6184-478c-ad6a-d32093b0b8ee"
+      (reference "#GND040") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/09940018-3fa9-4a88-b3b9-be0e55e01f98"
+      (reference "#GND042") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/ebd184bb-c19c-4c6e-a42e-85078de2656e"
+      (reference "#GND043") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/fe8cbf07-3009-44a6-9e53-be7de4bcb490"
+      (reference "#GND044") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/6ad5fec5-941c-4786-9db6-ebc04940edd5"
+      (reference "#GND046") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/38b8e048-8ae7-4914-85e3-21d11b35d3aa"
+      (reference "#GND047") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/9c9e0837-9d02-497d-9fbd-bab3b1067259"
+      (reference "#GND048") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/db5eee57-71a9-41d2-84ae-3a208d9127dc"
+      (reference "#GND049") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/00c1858d-40c1-4a0a-b80c-6139bad150a3"
+      (reference "#GND050") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/6fb4bc4d-95d1-4777-8dcd-c64486ab8513"
+      (reference "#GND051") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/59811369-676b-43e7-b8c3-81d491e17681"
+      (reference "#GND052") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/add90365-59e6-451f-89f8-8665d94a32ba"
+      (reference "#GND053") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/3204d897-eb37-43b1-9986-8727e4837938"
+      (reference "#GND054") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/0c4fafd9-d3fa-455c-b2df-8d52afcfa20a"
+      (reference "#GND055") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/9cf05b35-668e-4e1c-971f-999d17f0efd5"
+      (reference "#GND056") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/b71aee81-8ccc-488b-87a3-550495135d8e"
+      (reference "#GND057") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/e42f90ea-81be-4062-98ee-ea7b931c94d1"
+      (reference "#GND058") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/cd5bf8b2-7451-4e1b-9de1-fae653e0d5ac"
+      (reference "#GND059") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/8f2bdbf5-172b-4508-a879-c86b0e20f258"
+      (reference "#GND060") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/55afbacd-7f25-4459-a8c8-e7cd74c41cfb"
+      (reference "#GND061") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/fcdb512a-8224-4386-b300-aca0c3683351"
+      (reference "#GND062") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/2d297dd4-4cd6-4662-8274-737d730aa79d"
+      (reference "#GND063") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/5a3c2b27-b63a-4a61-862e-cb294b053222"
+      (reference "#GND064") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/a59d5dac-7b86-4797-b51e-25d2651242a5"
+      (reference "#GND065") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/2478a6e7-1dd9-4441-8257-f76832ff8e9d"
+      (reference "#GND066") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/6aa0c7aa-154b-4cf1-b26b-41c107eb038a"
+      (reference "#GND067") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/72662c72-4703-4c84-90e9-84d8c915dc8c"
+      (reference "#GND068") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/dfc40f91-a734-4293-bf46-99478e8cc1b1"
+      (reference "#GND072") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/f1ad2e2b-0a61-49d4-b91a-3860524e5701"
+      (reference "#GND073") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/c77bebbf-ae9a-4947-8b4a-131b67ad8bd0"
+      (reference "#GND074") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/d5510e7b-3fed-4432-af17-c73c637ff91d"
+      (reference "#GND075") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/ee82b68e-edcf-4d9a-8c83-5f8c4dfcb9b7"
+      (reference "#GND076") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/44089cb1-189b-4dab-885d-c8f28f9a1c16"
+      (reference "#GND077") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/ef79f53c-b25e-41d5-b612-b9852b0826d1"
+      (reference "#GND078") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/0dbd9c65-5462-425d-809b-a52c26305703"
+      (reference "#GND080") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/0d0a8cf0-7e30-4463-a75a-b09ac9dce329"
+      (reference "#GND081") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/2215b67b-b7c5-48e7-ada2-5ba365cf8893"
+      (reference "#GND082") (unit 1) (value "GND") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/a2e8a457-7e94-4209-ab67-2d36a7db9325"
+      (reference "#P+05") (unit 1) (value "+5V") (footprint "n64adv2:")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/f218931a-28a2-400d-8221-f44f359a183d"
+      (reference "ALRCLK1") (unit 1) (value "SMD1") (footprint "n64adv2:SMD0,8-1,6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/c094127d-306b-4c11-be56-23fb1d275288"
+      (reference "ASCLK1") (unit 1) (value "SMD1") (footprint "n64adv2:SMD0,8-1,6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/558c51b3-5a50-4dfc-b3fb-8cd54beec97f"
+      (reference "ASDATA1") (unit 1) (value "SMD1") (footprint "n64adv2:SMD0,8-1,6")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/a03785ac-4329-437b-a98a-05959fb1119e"
+      (reference "C1") (unit 1) (value "47u") (footprint "n64adv2:C0805")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/fbdd3877-ffe2-40a6-82bf-ec141174471c"
+      (reference "C1.11") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/58520e96-5098-418c-bf69-3696fac2e3a3"
+      (reference "C1.12") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/6eba0eb7-a2e2-4201-b6f9-12f23b664d6d"
+      (reference "C1.13") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/e4d52c58-e10a-46b0-828e-06f6a974175f"
+      (reference "C1.14") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/684746c4-1887-4b1d-9bbf-734e8ddab14d"
+      (reference "C1.15") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/def60589-179c-4f0b-b57f-c2654cc8e681"
+      (reference "C1.16") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/66d1db40-d85a-4eea-9cce-685976c8af55"
+      (reference "C1.17") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/cc1be7ad-7eaf-4eda-9fd7-065812c47cc8"
+      (reference "C1.18") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/93cf61f6-0eae-4b9b-b38e-acc536badde7"
+      (reference "C1.19") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/72e32a2d-6d54-4c08-8135-8a9c14a6b016"
+      (reference "C1.20") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/fd30bf58-b207-4b25-a667-27018b159b75"
+      (reference "C1.21") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/30a7e710-1bda-4679-bd33-3cd6fa2bf40d"
+      (reference "C1.22") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/07eda17c-cf78-4ee6-8f05-c1ee5629a4e6"
+      (reference "C1.31") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/b1c66dee-a826-42df-9589-7738fd57eb52"
+      (reference "C1.32") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/263bccba-2327-4fef-8a7e-7f32cf9cc50e"
+      (reference "C1.33") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/c1763de5-acf6-4cc2-8769-23e148364dce"
+      (reference "C1.34") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/de51e245-a27c-4a43-a9d6-150e7ff82e45"
+      (reference "C1.35") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/0f2f533c-6efa-4396-afac-bd28ecf14786"
+      (reference "C1.36") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/01f5884c-bcb2-42e7-ad1e-a5a38ea2fd5e"
+      (reference "C1.37") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/c7699f1d-7e78-4991-9876-ff3a83ea094a"
+      (reference "C1.38") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/061d5b60-6a9d-4005-baf0-f56c3f730e99"
+      (reference "C1.39") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/9c088fa7-228e-4974-9f8b-93ffff2752db"
+      (reference "C1.40") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/251a3e3d-cc6c-4532-9d81-98f83c41bfb6"
+      (reference "C1.51") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/bbb287f9-e742-4ea6-82a7-72ed5597a094"
+      (reference "C1.52") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/56852381-eef1-4ec4-91f1-d9ca593317e3"
+      (reference "C1.53") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/cb954d42-6d14-4372-b37e-7decf062cf0f"
+      (reference "C1.54") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/71a41c53-c356-43b2-b77e-cfa4fd361a0d"
+      (reference "C1.55") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/07d6f954-f048-445f-a3c0-332affd131c7"
+      (reference "C2") (unit 1) (value "47u") (footprint "n64adv2:C0805")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/700c960f-8a0f-4c1f-8452-d7aaefd611a8"
+      (reference "C3") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/72a9d340-3067-4475-80fd-24ce7b24e203"
+      (reference "C4") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/d91e70f8-fe93-452e-a676-52e1778d92a3"
+      (reference "C11") (unit 1) (value "10u") (footprint "n64adv2:C0805")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/c6522ffa-6188-4fc7-b203-bacdba141f1f"
+      (reference "C12") (unit 1) (value "10u") (footprint "n64adv2:C0805")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/2211dc9b-c955-4613-93c5-41b96fa1230a"
+      (reference "C13") (unit 1) (value "10u") (footprint "n64adv2:C0805")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/9225a0cb-f506-485d-acb6-014477b0e9c3"
+      (reference "C14") (unit 1) (value "10u") (footprint "n64adv2:C0805")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/19bc19b9-343c-44b0-9704-2469f1731021"
+      (reference "C15") (unit 1) (value "10u") (footprint "n64adv2:C0805")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/51a913ee-f0c8-47ae-a733-677dc561ad8b"
+      (reference "C21") (unit 1) (value "10u") (footprint "n64adv2:C0805")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/7eef6571-ad97-4008-9416-ff347e948af4"
+      (reference "C22") (unit 1) (value "10u") (footprint "n64adv2:C0805")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/7f1a57b2-dba0-48a2-a2c3-8869c69377cc"
+      (reference "C23") (unit 1) (value "10u") (footprint "n64adv2:C0805")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/38f9f66d-7576-4ae7-9f96-08983e0276a9"
+      (reference "C24") (unit 1) (value "10u") (footprint "n64adv2:C0805")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/9e0abe11-241b-49a2-ad21-70c3a000f192"
+      (reference "C31") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/db5bd896-647a-495e-913d-c426a73dbde5"
+      (reference "C32") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/bd7ee4a2-159a-4837-87f6-4c41a5dd6ce8"
+      (reference "C33") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/5026f652-a3c3-40da-b1b3-18817a846309"
+      (reference "C34") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/f2541c63-f916-4eec-8e16-fa49e5de1e82"
+      (reference "C35") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/4b4b5818-ee72-4166-a7e6-6dc590199f42"
+      (reference "C36") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/47102c41-05df-4da0-a689-4e4c5e60d6aa"
+      (reference "C37") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/0efd1d50-7b5d-4474-bb4a-713a4d292d54"
+      (reference "C51") (unit 1) (value "0.01u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/b81ef256-ef22-495d-8d9b-b4631c5f3b29"
+      (reference "C61") (unit 1) (value "0.01u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/d979db62-0823-47f9-a365-21e66b5ab681"
+      (reference "C71") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/bcebb362-6989-4d1e-a9f9-ea5f4a4b4fb9"
+      (reference "C91") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/3a2adf66-79a8-418e-aeb8-83b71b2978cd"
+      (reference "C92") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/9c8514e5-1a18-4724-823a-ab84831b39a5"
+      (reference "C93") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/a9302684-3ea9-475f-8e86-de9f50a99882"
+      (reference "C94") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/91ff9cb7-97f7-4d29-9257-85bc3fbf4e51"
+      (reference "C101") (unit 1) (value "1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/8fb3867a-9ea0-47cd-9c0a-1fbb8b970114"
+      (reference "C102") (unit 1) (value "1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/5a3e906c-8829-4cd7-88d7-2202ab435138"
+      (reference "C111") (unit 1) (value "1u") (footprint "n64adv2:C0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/0d5ae617-bcc4-45ef-b266-3eab4f6733e1"
+      (reference "C112") (unit 1) (value "1u") (footprint "n64adv2:C0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/5bce5ae9-9e62-4850-bf3f-b3dad05f793e"
+      (reference "C121") (unit 1) (value "1u") (footprint "n64adv2:C0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/a8cb2f62-4a11-4982-8f2b-36f0e50f4a69"
+      (reference "C122") (unit 1) (value "1u") (footprint "n64adv2:C0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/84a0f461-1052-438d-a576-457da5425336"
+      (reference "C131") (unit 1) (value "1u") (footprint "n64adv2:C0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/684dd7fc-eab4-4bab-96df-b884c79be082"
+      (reference "C132") (unit 1) (value "1u") (footprint "n64adv2:C0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/db79efc0-e826-4a1c-87e6-cbe23d1836c8"
+      (reference "C211") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/61980f91-e665-4dcd-b52a-0c0969801338"
+      (reference "C212") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/cfefd951-ba90-4758-8d02-043b83b64171"
+      (reference "C213") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/3a71e4f8-929c-487e-bcb7-5543a8ce30cd"
+      (reference "C214") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/2e8f5aa0-95bb-432e-afb6-14a738f6337f"
+      (reference "C221") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/19bbdaf3-224a-4f8e-a5bb-f7a92d14e018"
+      (reference "C222") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/21ec287f-bd3d-4876-a075-8a52f9329007"
+      (reference "C223") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/9110388a-d6cf-4f67-98cd-0b650b9ab3e3"
+      (reference "C231") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/3b9a8e62-fda6-4a6f-99cf-a8e5b8b2f15f"
+      (reference "C241") (unit 1) (value "0.1u") (footprint "n64adv2:C0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/253dd402-7945-4965-9215-af3d12fbb86c"
+      (reference "CTRL1") (unit 1) (value "SMD1") (footprint "n64adv2:SMD0,8-1,6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/047327b2-82e1-40fe-998b-4d304bb25c38"
+      (reference "D1") (unit 1) (value "LTST-C194KRKT") (footprint "n64adv2:CHIPLED_0805")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/315ed40d-2ed2-43d4-ab56-86ff969d4795"
+      (reference "D2") (unit 1) (value "LTST-C194KGKT") (footprint "n64adv2:CHIPLED_0805")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/b3afd6b2-53a8-4a05-a5f4-29af7e4ceb21"
+      (reference "D21") (unit 1) (value "RCLAMP0524PATCT") (footprint "n64adv2:HDMI_RCLAMP")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/d4aad45c-dd3f-471c-a2b6-23b7bdcac6c9"
+      (reference "D22") (unit 1) (value "RCLAMP0524PATCT") (footprint "n64adv2:HDMI_RCLAMP")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/25c97741-d0da-4efc-a99f-bd32e98fef10"
+      (reference "D23") (unit 1) (value "NUP4114") (footprint "n64adv2:SOT-23-6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/e14d8563-e7d8-4051-9278-b2935afad97b"
+      (reference "D23") (unit 2) (value "NUP4114") (footprint "n64adv2:SOT-23-6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/92eaba14-1ba6-49d7-8a55-64129d195b8b"
+      (reference "D23") (unit 3) (value "NUP4114") (footprint "n64adv2:SOT-23-6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/5a880622-77c6-4576-8a7e-d1980dc401ec"
+      (reference "F1") (unit 1) (value "R-EU_R0603") (footprint "n64adv2:R0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/aebe486d-616c-45b7-8128-af0dd62185bf"
+      (reference "FB1") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/2a7d09aa-6af8-4fd8-8830-bfd57a7ed38c"
+      (reference "FB2") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/89e0b497-98dd-488a-97c5-19e6c7bfb2b8"
+      (reference "FB3") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/601be67a-3556-4643-a537-e7891171212e"
+      (reference "FB4") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/a4022b51-0570-4266-92ff-ff9100c84f7e"
+      (reference "FB12") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/f2cea19d-f80c-460b-b19f-cd2ae20ae1b0"
+      (reference "FB13") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/ed4e4a13-7a8b-4f46-be3f-9056a1a4d3c7"
+      (reference "FB21") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/51934aba-6bd8-4cf2-9180-7d8507ae546e"
+      (reference "FB22") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/69f29e22-58a1-4ec1-8c23-ee51e8f4c259"
+      (reference "FB23") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/5ba8ac55-c65c-4d4a-b5d3-9ebe3ca79c5d"
+      (reference "FB24") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/180fa346-8a0c-4cbb-a203-5f8596e28190"
+      (reference "FB31") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/8dd9c320-729e-4a38-b89f-1c0896018005"
+      (reference "FB71") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/39927ce2-e2db-424f-b8d0-f15d67a3ef8b"
+      (reference "FB91") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/5eba1510-41a5-4805-833e-c5efe21aa562"
+      (reference "FB92") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/3d1a49f7-7d60-47f7-be5e-8a2fb6f6c932"
+      (reference "P_5V_IN0") (unit 1) (value "SMD2") (footprint "n64adv2:SMD1,27-2,54")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/4fff0c6a-354c-4d72-8509-0f1423d02288"
+      (reference "P_GND_2") (unit 1) (value "SMD2") (footprint "n64adv2:SMD1,27-2,54")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/e92ca77b-987a-4dd3-9684-312b6b6460b2"
+      (reference "P_GND_3") (unit 1) (value "SMD2") (footprint "n64adv2:SMD1,27-2,54")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/bde004bf-fddc-460d-8bad-3a449b6995b6"
+      (reference "Q1") (unit 1) (value "2N2222") (footprint "n64adv2:SOT23")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/ab8d1bbb-1dd9-4216-91b5-08a2fd3a63cd"
+      (reference "Q2") (unit 1) (value "2N2222") (footprint "n64adv2:SOT23")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/29ea5a22-b0c8-455f-adfc-a1e4ae7ca3cd"
+      (reference "Q3") (unit 1) (value "2N2222") (footprint "n64adv2:SOT23")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/1504993f-0210-4978-9602-705fbf4a4abb"
+      (reference "R3") (unit 1) (value "1M") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/f9b30b40-7bf6-4e31-9bb4-7f34e740cd2d"
+      (reference "R4") (unit 1) (value "1M") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/e6854cff-2607-407d-b45f-37658e3ea8a5"
+      (reference "R5") (unit 1) (value "1k") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/37eb6c67-4df1-46c5-adb2-054a3a0833d0"
+      (reference "R6") (unit 1) (value "1k") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/4e0042be-50b1-475f-bba5-d671d7dd9f7b"
+      (reference "R7") (unit 1) (value "1k") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/d9a6ae30-f9ee-4692-9ce6-37ab2b3096e0"
+      (reference "R8") (unit 1) (value "10k") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/f294a229-6752-4bf0-afcf-4e666738928a"
+      (reference "R11") (unit 1) (value "1k") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/e49247ab-5c22-47ea-ad92-3fa9cf32a411"
+      (reference "R12") (unit 1) (value "10k") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/16108561-d524-4af7-aebe-99ff2f7b86ac"
+      (reference "R13") (unit 1) (value "10k") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/cc3c5f12-550a-4280-aa78-14043a83d70d"
+      (reference "R14") (unit 1) (value "33") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/70d65ff4-afad-4ea7-8548-e2d8889f8505"
+      (reference "R15") (unit 1) (value "1k") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/9a371df2-e129-41a2-a3b9-8b3756d89187"
+      (reference "R16") (unit 1) (value "330") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/55acbe99-c906-4a3c-a508-a08335067413"
+      (reference "R17") (unit 1) (value "1k") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/93afe5b9-ac56-4aea-8798-699080b634cf"
+      (reference "R18") (unit 1) (value "330") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/9f6e2397-6fb1-48d7-b3be-a371c7937a78"
+      (reference "R21") (unit 1) (value "887") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/503ec6ae-e212-420c-8080-bbe801b6bc49"
+      (reference "R22") (unit 1) (value "10k") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/075f968e-1748-48c5-a6e1-dfd4591849ef"
+      (reference "R23") (unit 1) (value "2k") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/ff476df7-7811-4a3b-9a3c-14594a603288"
+      (reference "R24") (unit 1) (value "2k") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/492caf45-c836-4c55-ac2e-4219c2a3308c"
+      (reference "R31") (unit 1) (value "1k") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/06bc1d3f-a817-499c-b305-bf090751aa70"
+      (reference "R41") (unit 1) (value "3k09") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/0a7f5257-05d0-4aab-af0f-632e0d5e1e73"
+      (reference "R42") (unit 1) (value "1k58") (footprint "n64adv2:R0603")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/4d3f805b-53d2-4562-81c5-c956db5aea1d"
+      (reference "RN11") (unit 1) (value "BK32164M121-T") (footprint "n64adv2:CTS742C083")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/60326336-7b2b-461c-98a1-dabb6c7f4270"
+      (reference "RN12") (unit 1) (value "BK32164M121-T") (footprint "n64adv2:CTS742C083")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/fc65146f-31de-4f3b-a678-0e5eb0846754"
+      (reference "RN13") (unit 1) (value "BK32164M121-T") (footprint "n64adv2:CTS742C083")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/3dd68dde-fa6a-4678-8da5-bedcb21224da"
+      (reference "RN14") (unit 1) (value "BK32164M121-T") (footprint "n64adv2:CTS742C083")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/5a4ab1af-60d4-416e-8b38-9da9038b6357"
+      (reference "RN15") (unit 1) (value "CAY16-103J4LF") (footprint "n64adv2:CTS742C083")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/762c3c0b-490f-4700-be51-c6a7ba896fe3"
+      (reference "RN16") (unit 1) (value "CAY16-2201F4LF") (footprint "n64adv2:CTS742C083")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/ca5218cb-dd0d-46db-a2b9-396537593985"
+      (reference "RN31") (unit 1) (value "CAY16-103J4LF") (footprint "n64adv2:CTS742C083")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/20cb7a59-5c46-47a2-8fc8-a951f476d54d"
+      (reference "SF_GND_1") (unit 1) (value "PADSHIELD_FINGER") (footprint "n64adv2:GND_FINGER_PAD")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/08951399-3dbd-4830-9478-6c80670a7e45"
+      (reference "SF_GND_2") (unit 1) (value "PADSHIELD_FINGER") (footprint "n64adv2:GND_FINGER_PAD")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/c6ceaac4-0e66-4daa-a988-b3dbb7d50398"
+      (reference "SJ1") (unit 1) (value "SJSMALL") (footprint "n64adv2:SJ_SMALL")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/e74c7ddc-33c3-45ac-9a20-6eb13c0fb732"
+      (reference "SJ2") (unit 1) (value "SJSMALL") (footprint "n64adv2:SJ_SMALL")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/af3784e5-2bb2-4c8b-adde-28bcbc44ecfa"
+      (reference "SJ3") (unit 1) (value "SJSMALL") (footprint "n64adv2:SJ_SMALL")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/adc35284-b1a5-4a4f-9d67-d284094a133d"
+      (reference "SJ4") (unit 1) (value "SJSMALL") (footprint "n64adv2:SJ_SMALL")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/273d306b-c878-4753-9721-478a5725fe26"
+      (reference "SJ5") (unit 1) (value "SJSMALL") (footprint "n64adv2:SJ_SMALL")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/a4f65d48-27b0-40b6-8f60-1150050d5356"
+      (reference "SJ6") (unit 1) (value "SJSMALL") (footprint "n64adv2:SJ_SMALL")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/0300f71b-6bbd-4141-8bf1-b2ba991b58dc"
+      (reference "SJ11") (unit 1) (value "SJSMALL") (footprint "n64adv2:SJ_SMALL")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/43990297-22a0-4f30-9cdc-2e77b673b5a9"
+      (reference "SJ31") (unit 1) (value "SJSMALL") (footprint "n64adv2:SJ_SMALL")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/7a96de05-6219-40b4-8855-7099188603c1"
+      (reference "TP_SCL0") (unit 1) (value "TPB1,27") (footprint "n64adv2:B1,27")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/7ca2c321-73d3-4aed-bc04-05762eab546f"
+      (reference "TP_SDA0") (unit 1) (value "TPB1,27") (footprint "n64adv2:B1,27")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/870fb605-9fcd-48c1-ae9c-67ff711a2f9f"
+      (reference "TP_SPDIF0") (unit 1) (value "TPB1,27") (footprint "n64adv2:B1,27")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/2d2134fc-04dc-41a0-88f2-a691a7c0b23c"
+      (reference "U1") (unit 1) (value "10M16SCE144/10M25SCE144") (footprint "n64adv2:EQFP144_2")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/64ae7880-ed3a-4487-9340-03c8a9b59359"
+      (reference "U2") (unit 1) (value "ADV7513") (footprint "n64adv2:LQFP64_EP")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/e6818560-73b8-43fe-9b6d-67886be2ac8c"
+      (reference "U3") (unit 1) (value "MT48LC16M16A2-TSOP54") (footprint "n64adv2:TSOP-54")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/05d6ccc2-421b-4e9d-91cd-1ea66144224c"
+      (reference "U4") (unit 1) (value "SI5356DIY") (footprint "n64adv2:QFN-24-DIY")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/2cdad8ef-b5c8-42b4-91da-9d5f6d9b006b"
+      (reference "U5") (unit 1) (value "ASE-50.000MHZ-LC-T ") (footprint "n64adv2:3.2X2.5_KXO-V96")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/b1af12d0-5ec6-432e-8950-479189cae1e0"
+      (reference "U6") (unit 1) (value "ASE-24.576MHZ-LC-T") (footprint "n64adv2:3.2X2.5_KXO-V96")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/5b15f03e-73df-440c-a6ff-1acb5500f047"
+      (reference "U7") (unit 1) (value "2G17TI_DBV") (footprint "n64adv2:SOT-23-6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/531073ef-6d5c-421e-b8f5-49e402c33432"
+      (reference "U7") (unit 2) (value "2G17TI_DBV") (footprint "n64adv2:SOT-23-6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/52343ac2-4969-42df-af1e-ed7deb794aea"
+      (reference "U7") (unit 3) (value "2G17TI_DBV") (footprint "n64adv2:SOT-23-6")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/d89e2580-b022-4d48-a37e-c7e9e38b0bcb"
+      (reference "U10") (unit 1) (value "TLV70225DBVR") (footprint "n64adv2:SOT23-5")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/2c0c0b35-eaf6-4f9e-a023-5d1b52338afb"
+      (reference "U11") (unit 1) (value "TLV70025") (footprint "n64adv2:SOT23-5")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/45ab63b2-69a7-4901-a31d-21ac38882192"
+      (reference "U12") (unit 1) (value "TLV70218DBVT") (footprint "n64adv2:SOT23-5")
+    )
+    (path "/01172b30-4940-4805-b545-a15bc4c1c378/d7ab0ff9-7261-48ad-92eb-b63b9921aed9"
+      (reference "U13") (unit 1) (value "TLV70033") (footprint "n64adv2:SOT23-5")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/068537eb-19b5-43c2-a1fa-b0fc53cc0414"
+      (reference "UNK3V_IN0") (unit 1) (value "SMD2") (footprint "n64adv2:SMD1,27-2,54")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/57038053-edc6-4c25-96eb-1eb96c9030ec"
+      (reference "VD0") (unit 1) (value "SMD1") (footprint "n64adv2:SMD0,8-1,6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/cb30d182-7015-4e89-a57f-5cf0f91a6a00"
+      (reference "VD1") (unit 1) (value "SMD1") (footprint "n64adv2:SMD0,8-1,6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/f5bf0ae3-d365-4548-8580-8061d71f1037"
+      (reference "VD2") (unit 1) (value "SMD1") (footprint "n64adv2:SMD0,8-1,6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/42a2b2c3-5ebb-49d9-aedb-3a59eff4693b"
+      (reference "VD3") (unit 1) (value "SMD1") (footprint "n64adv2:SMD0,8-1,6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/c0c76d32-7e63-431c-a91f-d7e0377055a1"
+      (reference "VD4") (unit 1) (value "SMD1") (footprint "n64adv2:SMD0,8-1,6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/b42b3d16-0988-4f7b-ad3f-dfc376005ee3"
+      (reference "VD5") (unit 1) (value "SMD1") (footprint "n64adv2:SMD0,8-1,6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/7b6ce823-e462-46b4-a6fd-c3a914d95298"
+      (reference "VD6") (unit 1) (value "SMD1") (footprint "n64adv2:SMD0,8-1,6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/f4ce5382-76f5-4be8-8e80-743a87779c99"
+      (reference "VDCLK1") (unit 1) (value "SMD1") (footprint "n64adv2:SMD0,8-1,6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/2a9e6e04-ecfe-4ea9-b7fb-b0b426c7e53b"
+      (reference "X1") (unit 1) (value "Conn_01x30") (footprint "n64adv2:FH12-30S-0.5SH")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/8db72d04-aa4e-4246-8b1e-434f2f787f79"
+      (reference "X2") (unit 1) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/f95e47b6-40c9-4296-8651-5a1a9a584abf"
+      (reference "X2") (unit 2) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/45123bbf-35bf-4418-9b58-8a65877f0c2e"
+      (reference "X2") (unit 3) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/c4872144-a59f-4c5a-95c7-320838b6cd84"
+      (reference "X2") (unit 4) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/096a6a76-6ad7-4046-bdd5-f6080215d455"
+      (reference "X2") (unit 5) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/628c2ec1-218a-4ee9-8cee-6a9c4f0d584e"
+      (reference "X2") (unit 6) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/84a31ba5-ed36-4843-b612-7c06c39a7b75"
+      (reference "X2") (unit 7) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/5d6a8fee-0f28-4bb9-866f-abcc0089d992"
+      (reference "X2") (unit 8) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/c3d0a12e-720e-4555-9147-e48f3bcc60b5"
+      (reference "X2") (unit 9) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/6e07fda6-6908-4f4b-80a7-95fe1231aada"
+      (reference "X2") (unit 10) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/00c8a1c2-a1d5-4598-9f78-253afd23639f"
+      (reference "X3") (unit 1) (value "hdmi-con") (footprint "n64adv2:685119134923")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/63398651-4f6e-4e62-9035-ee4c0ea976b7"
+      (reference "X3") (unit 2) (value "hdmi-con") (footprint "n64adv2:685119134923")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/bfe3fc90-fb5f-403b-a751-e191f1c0a662"
+      (reference "X4") (unit 1) (value "TEI0005") (footprint "n64adv2:TEI0005")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/ca1af6e0-b911-4719-a936-e41d586110b5"
+      (reference "X5") (unit 1) (value "USB3140-30-0170-0-C ") (footprint "n64adv2:USB-MICRO-VERTICAL-DIY")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/a6522efe-efaa-4294-8978-e8c504504a39"
+      (reference "Y41") (unit 1) (value "7A-27.000MAAJ-T") (footprint "n64adv2:5.0X3.2_2")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/d3f78ab5-c29f-4893-bb68-e1304a0fc877"
+      (reference "nRST1") (unit 1) (value "SMD1") (footprint "n64adv2:SMD0,8-1,6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/134e7d69-ce12-4f3f-8131-19801eae8228"
+      (reference "nVDS1") (unit 1) (value "SMD1") (footprint "n64adv2:SMD0,8-1,6")
+    )
+    (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/ed1aed8d-bb93-4609-99ab-b0f1191cf7fe"
+      (reference "nViDeBlur1") (unit 1) (value "SMD1") (footprint "n64adv2:SMD0,8-1,6")
+    )
+  )
+)

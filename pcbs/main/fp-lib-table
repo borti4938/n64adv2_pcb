@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "n64adv2")(type "KiCad")(uri "$(KIPRJMOD)/n64adv2.pretty")(options "")(descr ""))
+)
