@@ -25,22 +25,21 @@ Next to it on the board there are some SMD1206 resistor and ferrite bead arrays.
 - [Assembly](https://github.com/borti4938/n64adv2_pcb#assembly)
 - [Installation](https://github.com/borti4938/n64adv2_pcb#installation)
   - [1. Open the Console](https://github.com/borti4938/n64adv2_pcb#1-open-the-console)
-  - [2. Optional Steps](https://github.com/borti4938/n64adv2_pcb#2-optional-steps)
+  - [2. Preparation](https://github.com/borti4938/n64adv2_pcb#2-preparation)
   - [3. Solder Work](https://github.com/borti4938/n64adv2_pcb#3-solder-work)
-  - [4. Mount the N64 Advanced Modding PCB](https://github.com/borti4938/n64adv2_pcb#4-mount-the-n64-advanced-modding-pcb)
-  - [5. Finish the Work](https://github.com/borti4938/n64adv2_pcb#5-finish-the-work)
-- [Jumper Setup](https://github.com/borti4938/n64adv2_pcb#jumper-setup)
+  - [4. Put Everything Together](https://github.com/borti4938/n64adv2_pcb#4-put-everything-together)
+- [Jumper Description](https://github.com/borti4938/n64adv2_pcb#jumper-description)
 
 ## Checklist: How to build the project
 
 - Use PCB files to order your PCBs. You need the order the main PCB. If you plan to have a clean install, you need to order a flexible PCB, too. You can opt for a fully custom flex-PCB or a partial flex-PCB where you run a FFC cable from flex to main PCB. Important PCB specifications are provided in the [BOM](./doc/n64adv2_BOM.xlsx).
-  - Main PCB: either [KiCAD-PCB design file](./pcbs/main/n64adv2.kicad_pcb) or [Gerber files](./gerber/main/))
+  - Main PCB: either [KiCAD-PCB design file](./pcbs/main/n64adv2.kicad_pcb) or [Gerber files](./gerber/main/)
   - Full Flex PCB: either [EAGLE-PCB design file](./pcbs/flex/rcp2n64adv2.brd) or [Gerber files](./gerber/full_flex/)
   - Partial Flex PCB: either [EAGLE-PCB design file](./pcbs/flex/rcp2fpc_v5.brd) or [Gerber files](./gerber/part_flex/)
 - If you plan to use solder paste, do not forget to order a stencil for top and bottom, too
 - Source the components you need, e.g. from Mouser or Digikey.
   The BOM is available in [here](./doc/n64adv2_BOM.xlsx).
-- If you want to use a assembly service (PCBA), you can use the mounting files for ([main](./doc/n64adv2-top-pos.csv), full flex-PCB and/or part flex-PCB, too.
+- If you want to use a assembly service (PCBA), you can use the mounting files for [main](./doc/n64adv2-top-pos.csv), full flex-PCB and/or part flex-PCB, too.
 - Wait for everything to arrive
 - Assemble your PCB if you haven't use a PCBA service
 - Flash the firmware ([firmware releases](https://github.com/borti4938/n64adv2_fw/releases)) after installing:
@@ -66,7 +65,7 @@ You may check the FPGA temperature with your finger on the top side (once it get
 Do the same with the other chips which have an exposed pad (U2 and U4).
 
 If you populate X2 with the THT variant, which is the JTAG connector, please short the pins such that they are flush at the bottom side.
-Otherwise the PCB might be lifted in its position which produces unneccessary mechanical stress on PCB and HDMI connector.
+Otherwise, the PCB might be lifted in its position which produces unnecessary mechanical stress on PCB and HDMI connector.
 
 Using non-clean flux (rosin based) is obviously recommended.
 Even though it is "non-clean" I recommend cleaning everything afterwards (just for the visual finish).
@@ -96,7 +95,7 @@ Very important is that the power supply trace do not short to GND.
 
 ![](./doc/img/Screws_bot.jpg)
 
-![](./doc/img/Screws_inside.jpg)
+![](./doc/img/Screws_inside.jpg)  
 (image by Zerberus (circuit-board.de user))
 
 
@@ -113,7 +112,7 @@ You will need the following parts for it:
   - No Cut Mod: appr. 2mm to 2.5mm thickness
 5. 3D printed parts:
   - Cut Mod: [round filler](./prints_3d/Filler_Round.stl), [JTAG spacer](./prints_3d/N64ADV2_JTAG_Spacer_v1p1.stl) and [MultiOut replacement](./prints_3d/N64Adv2_Half-Cut_v1p1.stl)
-  - No Cut Mod: [PCB lift breacket](./prints_3d/N64Adv2_lift.stl) and [MultiOut replacement](./prints_3d/N64Adv2_No-Cut_v1.stl)
+  - No Cut Mod: [PCB lift bracket](./prints_3d/N64Adv2_lift.stl) and [MultiOut replacement](./prints_3d/N64Adv2_No-Cut_v1.stl)
 
 #### 2.1 Shell Preparation Cut Mod
 
@@ -121,14 +120,14 @@ The bottom shell needs a cutout at the MultiOut port.
 
 Mark the place you need to file with either the N64Adv2 PCB or the 3D printed MultiOut replacement.
 
-![](cut_marking.jpg)
+![](./doc/img/cut_marking.jpg)
 
 File down the shell within your markings until the N64Adv2 sits flush on the shell floor.
 Consider a tiny space below the HDMI connector.
 Cleanup the shell and place the 3D printed parts into the shell.
 Make a final fit test as shown.
 
-![](shell_fit_cut.jpg)
+![](./doc/img/shell_fit_cut.jpg)
 
 #### 2.2 Shell Preparation No Cut
 
@@ -137,7 +136,7 @@ All you need is to remove the bottom RF shield from the N64 mainboard.
 
 Place all 3D printed parts and make a fitting test as shown.
 
-![](shell_fit_no_cut.jpg)
+![](./doc/img/shell_fit_no_cut.jpg)
 
 
 ### 3. Solder Work
@@ -147,7 +146,7 @@ This is just a trade-off between personal installation effort and price.
 Personally, I recommend using the flex cable.
 Also with the flex cable you have the option to use a fully custom flex or a partial flex which just have a FFC connector on it to run a FFC cable from N64 to N64Adv2.
 
-The instructions shows the installation with the fully custom flex.
+The instruction shows the installation with the fully custom flex.
 The partial flex installation is similar, but not shown here.
 The wired installation is not shown and not documented at all! (at least for the moment)
 
@@ -160,7 +159,7 @@ This relaxes routing with as low stress on the flex cable as possible.
 
 ![](./doc/img/flex_cable_bend.jpg)
 
-If you opt for the partial flex, pospone this step until you have the partial flex installed.
+If you opt for the partial flex, postpone this step until you have the partial flex installed (after step 3.2).
 Measure where the FFC cable needs to be bend.
 Apply some insulation tape for cable protection behind the bending area.
 
@@ -171,8 +170,8 @@ Put the solder area on to of the pins.
 (However, putting them in front is also possible.)
 
 Secure the cable with some kapton tape or with two solder joints.
-Make sure that solder pads and pins are perfectly alligned.
-The better the allignment is the easier is the solder work.
+Make sure that solder pads and pins are perfectly aligned.
+The better the alignment is the easier is the solder work.
 
 ![](./doc/img/flex_allignment.jpg)
 
@@ -197,7 +196,7 @@ Short summary:
   - Connect another 3.3V power rail, e.g. from U140
   
 
-#### 4. Place Everything Together
+#### 4. Put Everything Together
 
 Secure your installation from shorts to the top RF shield with some insulation tape.
 There is a risk for shorts where the controller leg of the full flex is routed.
@@ -216,7 +215,7 @@ For the Cut-Mod, also place the bottom RF shield into its place of the N64.
 The RF shield does not fit in the no-cut mod variant.
 
 Put the thermal pad on top of the FPGA (U1) of the N64Adv2 board.
-This helps with heat dissipation and also holds the PCB in its place.
+This helps with heat dissipation and holds the PCB in its place.
 
 Put everything in the bottom shell.
 Do not forget 3D printings.
@@ -229,20 +228,20 @@ Do not forget to put in the Jumper Pak or Expansion Pak, otherwise you won't see
 If everything works fine, close the whole shell.
 
 
-## Jumper Setup
+## Jumper Description
 
 **IMPORTANT NOTE**  
 Most jumpers are for development reasons and do not need to be touched at all.
 This section is only for documentation purposes.
 
-#### SJ1 to SJ4 (IO power supply for FPGA Bank 6 and 7)
+##### SJ1 to SJ4 (IO power supply for FPGA Bank 6 and 7)
 
 Bank B6 and B7 needs 2.5V VCCIO for current implementation.
-Since N64Adv2_202200415, these jumper are closed by default at 2.5V.
+Since N64Adv2_202200415, these jumpers are closed by default at 2.5V.
 Earlier prototypes need a solder joint at 2.5V.
 Do not touch 3.3V jumper as current implementation runs IO speed over specifications then.
 
-#### SJ5 (5V power via USB port (X5))
+##### SJ5 (5V power via USB port (X5))
 - opened: (default) disable 5V power via USB
 - closed: enable 5V power via USB
 
