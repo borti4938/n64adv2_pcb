@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "n64_rcp")(type "KiCad")(uri "${KIPRJMOD}/lib/n64_rcp.kicad_sym")(options "")(descr ""))
+)
