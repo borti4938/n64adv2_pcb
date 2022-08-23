@@ -35,7 +35,7 @@ Next to it on the board there are some SMD1206 resistor and ferrite bead arrays.
 
 - Use PCB files to order your PCBs. You need the order the main PCB. If you plan to have a clean install, you need to order a flexible PCB, too. You can opt for a fully custom flex-PCB or a partial flex-PCB where you run a FFC cable from flex to main PCB. Important PCB specifications are provided in the [BOM](./doc/n64adv2_BOM.xlsx).
   - Main PCB: either [KiCAD-PCB design file](./pcbs/main/n64adv2.kicad_pcb) or [Gerber files](./gerber/main/)
-  - Full Flex PCB: either [EAGLE-PCB design file](./pcbs/flex/rcp2n64adv2.brd) or [Gerber files](./gerber/full_flex/)
+  - Full Flex PCB: either [KiCAD-PCB design file](./pcbs/flex/rcp2n64adv2.kicad_pcb) or [Gerber files](./gerber/full_flex/)
   - Partial Flex PCB: either [EAGLE-PCB design file](./pcbs/flex/rcp2fpc_v5.brd) or [Gerber files](./gerber/part_flex/)
 - If you plan to use solder paste, do not forget to order a stencil for top and bottom, too
 - Source the components you need, e.g. from Mouser or Digikey.
@@ -49,7 +49,6 @@ Next to it on the board there are some SMD1206 resistor and ferrite bead arrays.
   - Select CFM0 and UFM for program and verify
   - N64 needs to be powered for flashing
   - Power cycle the N64 after flashing
-
 
 ## Assembly
 
