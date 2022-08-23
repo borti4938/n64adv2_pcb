@@ -722,10 +722,10 @@
       (reference "U2") (unit 1) (value "ADV7513") (footprint "n64adv2:LQFP64_EP")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/e6818560-73b8-43fe-9b6d-67886be2ac8c"
-      (reference "U3") (unit 1) (value "MT48LC16M16A2-TSOP54") (footprint "n64adv2:TSOP-54")
+      (reference "U3") (unit 1) (value "AS4C8M16SA-xTCN") (footprint "n64adv2:TSOP-54")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/05d6ccc2-421b-4e9d-91cd-1ea66144224c"
-      (reference "U4") (unit 1) (value "SI5356DIY") (footprint "n64adv2:QFN-24-DIY")
+      (reference "U4") (unit 1) (value "SI5356A-B-GMR") (footprint "n64adv2:QFN-24-DIY")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/2cdad8ef-b5c8-42b4-91da-9d5f6d9b006b"
       (reference "U5") (unit 1) (value "ASE-50.000MHZ-LC-T ") (footprint "n64adv2:3.2X2.5_KXO-V96")
@@ -734,25 +734,25 @@
       (reference "U6") (unit 1) (value "ASE-24.576MHZ-LC-T") (footprint "n64adv2:3.2X2.5_KXO-V96")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/5b15f03e-73df-440c-a6ff-1acb5500f047"
-      (reference "U7") (unit 1) (value "2G17TI_DBV") (footprint "n64adv2:SOT-23-6")
+      (reference "U7") (unit 1) (value "74LVC2G17DBV") (footprint "n64adv2:SOT-23-6")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/531073ef-6d5c-421e-b8f5-49e402c33432"
-      (reference "U7") (unit 2) (value "2G17TI_DBV") (footprint "n64adv2:SOT-23-6")
+      (reference "U7") (unit 2) (value "74LVC2G17DBV") (footprint "n64adv2:SOT-23-6")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/52343ac2-4969-42df-af1e-ed7deb794aea"
-      (reference "U7") (unit 3) (value "2G17TI_DBV") (footprint "n64adv2:SOT-23-6")
+      (reference "U7") (unit 3) (value "74LVC2G17DBV") (footprint "n64adv2:SOT-23-6")
     )
     (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/d89e2580-b022-4d48-a37e-c7e9e38b0bcb"
-      (reference "U10") (unit 1) (value "TLV70225DBVR") (footprint "n64adv2:SOT23-5")
+      (reference "U10") (unit 1) (value "TLV70225DBV") (footprint "n64adv2:SOT23-5")
     )
     (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/2c0c0b35-eaf6-4f9e-a023-5d1b52338afb"
-      (reference "U11") (unit 1) (value "TLV70025") (footprint "n64adv2:SOT23-5")
+      (reference "U11") (unit 1) (value "TLV70025DDC") (footprint "n64adv2:SOT23-5")
     )
     (path "/01172b30-4940-4805-b545-a15bc4c1c378/45ab63b2-69a7-4901-a31d-21ac38882192"
-      (reference "U12") (unit 1) (value "TLV70218DBVT") (footprint "n64adv2:SOT23-5")
+      (reference "U12") (unit 1) (value "TLV70218DBV") (footprint "n64adv2:SOT23-5")
     )
     (path "/01172b30-4940-4805-b545-a15bc4c1c378/d7ab0ff9-7261-48ad-92eb-b63b9921aed9"
-      (reference "U13") (unit 1) (value "TLV70033") (footprint "n64adv2:SOT23-5")
+      (reference "U13") (unit 1) (value "TLV70033DDC") (footprint "n64adv2:SOT23-5")
     )
     (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/068537eb-19b5-43c2-a1fa-b0fc53cc0414"
       (reference "UNK3V_IN0") (unit 1) (value "SMD2") (footprint "n64adv2:SMD1,27-2,54")
@@ -785,34 +785,34 @@
       (reference "X1") (unit 1) (value "Conn_01x30") (footprint "n64adv2:FH12-30S-0.5SH")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/8db72d04-aa4e-4246-8b1e-434f2f787f79"
-      (reference "X2") (unit 1) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+      (reference "X2") (unit 1) (value "3020-10-0300-00") (footprint "n64adv2:PAK100_2500-10")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/f95e47b6-40c9-4296-8651-5a1a9a584abf"
-      (reference "X2") (unit 2) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+      (reference "X2") (unit 2) (value "3020-10-0300-00") (footprint "n64adv2:PAK100_2500-10")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/45123bbf-35bf-4418-9b58-8a65877f0c2e"
-      (reference "X2") (unit 3) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+      (reference "X2") (unit 3) (value "3020-10-0300-00") (footprint "n64adv2:PAK100_2500-10")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/c4872144-a59f-4c5a-95c7-320838b6cd84"
-      (reference "X2") (unit 4) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+      (reference "X2") (unit 4) (value "3020-10-0300-00") (footprint "n64adv2:PAK100_2500-10")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/096a6a76-6ad7-4046-bdd5-f6080215d455"
-      (reference "X2") (unit 5) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+      (reference "X2") (unit 5) (value "3020-10-0300-00") (footprint "n64adv2:PAK100_2500-10")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/628c2ec1-218a-4ee9-8cee-6a9c4f0d584e"
-      (reference "X2") (unit 6) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+      (reference "X2") (unit 6) (value "3020-10-0300-00") (footprint "n64adv2:PAK100_2500-10")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/84a31ba5-ed36-4843-b612-7c06c39a7b75"
-      (reference "X2") (unit 7) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+      (reference "X2") (unit 7) (value "3020-10-0300-00") (footprint "n64adv2:PAK100_2500-10")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/5d6a8fee-0f28-4bb9-866f-abcc0089d992"
-      (reference "X2") (unit 8) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+      (reference "X2") (unit 8) (value "3020-10-0300-00") (footprint "n64adv2:PAK100_2500-10")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/c3d0a12e-720e-4555-9147-e48f3bcc60b5"
-      (reference "X2") (unit 9) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+      (reference "X2") (unit 9) (value "3020-10-0300-00") (footprint "n64adv2:PAK100_2500-10")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/6e07fda6-6908-4f4b-80a7-95fe1231aada"
-      (reference "X2") (unit 10) (value "2510-") (footprint "n64adv2:PAK100_2500-10")
+      (reference "X2") (unit 10) (value "3020-10-0300-00") (footprint "n64adv2:PAK100_2500-10")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/00c8a1c2-a1d5-4598-9f78-253afd23639f"
       (reference "X3") (unit 1) (value "hdmi-con") (footprint "n64adv2:685119134923")
