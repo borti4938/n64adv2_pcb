@@ -23,6 +23,7 @@ Next to it on the board there are some SMD1206 resistor and ferrite bead arrays.
 
 - [Checklist](https://github.com/borti4938/n64adv2_pcb#checklist-how-to-build-the-project)
 - [Assembly](https://github.com/borti4938/n64adv2_pcb#assembly)
+- [PCB Specs](https://github.com/borti4938/n64adv2_pcb#pcb-specs)
 - [Installation](https://github.com/borti4938/n64adv2_pcb#installation)
   - [1. Open the Console](https://github.com/borti4938/n64adv2_pcb#1-open-the-console)
   - [2. Preparation](https://github.com/borti4938/n64adv2_pcb#2-preparation)
@@ -49,6 +50,23 @@ Next to it on the board there are some SMD1206 resistor and ferrite bead arrays.
   - Select CFM0 and UFM for program and verify
   - N64 needs to be powered for flashing
   - Power cycle the N64 after flashing
+
+## PCB Specs
+
+- **Main-PCB** Use PCB files (either [KiCAD-PCB design file](./pcbs/main/n64adv2.kicad_pcb) or [Gerber files](./gerber/main/)) to order your own PCB with following specs (might be not comprehensive)  
+  - Size: 89.6mm x 80.0mm
+  - Layer: 4
+  - FPC thickness: 1.2mm
+  - Min hole size: dia 0.3mm / ring 0.6mm or lower
+  - Min trace width / spacing: 0.2mm
+- **Flex-PCB** Use PCB files (either [KiCAD-PCB design file](./pcbs/flex/rcp2n64adv2.kicad_pcb) or [Gerber files](./gerber/full_flex/)) to order your own PCB with following specs (might be not comprehensive)  
+  - Size: 129.6mm x 25.0mm
+  - Layer: 2
+  - FPC thickness: 0.15mm
+  - Min hole size: dia 0.25mm / ring 0.45mm or lower
+  - Min trace width / spacing: 0.2mm
+  - Stiffener: PI top + bottom
+  - Stiffener thickness: 0.15mm
 
 ## Assembly
 
