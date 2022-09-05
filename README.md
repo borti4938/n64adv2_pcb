@@ -212,7 +212,11 @@ Short summary:
   - Controller from PIF-NUS pin 16  
   (Make sure that PIF-NUS pin 16 is connected to the middle pin of controller port 1, otherwise search for a suitable connection point)
   - Connect another 3.3V power rail, e.g. from U140
-  
+- If you have a CPLD-based RGB mod, you can use J3 to setup VI-DeBlur on that mod over the N64Adv2
+  - J3 has two pads: the left one (directly above the N64Adv2 logo) is the feedback signal, the other one is GND.
+    Use a DMM if you are unsure (the GND pad has connection to any GND point on the N64 mainboard if flex is installed)
+  - J3 signal pad is high on VI-DeBlur disabled and goes low if enabled
+
 
 #### 4. Put Everything Together
 
@@ -296,6 +300,8 @@ Put the UltraPIF on the UltraPIF Adapter board.
 Most jumpers are for development reasons and do not need to be touched at all.
 This section is only for documentation purposes.
 
+### On main N64Adv2 PCB
+
 ##### SJ1 to SJ4 (IO power supply for FPGA Bank 6 and 7)
 
 Bank B6 and B7 needs 2.5V VCCIO for current implementation.
@@ -318,3 +324,12 @@ Do not touch 3.3V jumper as current implementation runs IO speed over specificat
 ##### SJ31 (SRAM A12)
 - opened: (default) use 8Mx16 memory
 - closed: use 16Mx16 memory
+
+### On flex PCB
+
+##### SJ1
+- opened: use with Schmitt trigger buffer (U1 and C1)
+- closed: close jumper if you do not use Schmitt trigger buffer (U1 and C1)
+
+##### J3
+- VI-DeBlur feedback for CPLD based RGB mods (see installation section)
