@@ -2,7 +2,16 @@
 
   (uuid c58960d9-4cac-4036-ad2e-1aef26946dae)
 
-  (paper "A4")
+  (paper "A5")
+
+  (title_block
+    (title "N64Adv2 (ADV7513)")
+    (rev "v20220729")
+    (company "Peter 'borti4938' Bartmann")
+    (comment 1 "Schematic and PCB (c) 2021, 2022 by Peter Bartmann")
+    (comment 2 "N64Adv2_20220729")
+    (comment 3 "Licensed under CERN-OHL-W v2")
+  )
 
   (lib_symbols
   )
@@ -599,7 +608,7 @@
       (reference "R4") (unit 1) (value "1M") (footprint "n64adv2:R0603")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/e6854cff-2607-407d-b45f-37658e3ea8a5"
-      (reference "R5") (unit 1) (value "1k") (footprint "n64adv2:R0603")
+      (reference "R5") (unit 1) (value "10k") (footprint "n64adv2:R0603")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/37eb6c67-4df1-46c5-adb2-054a3a0833d0"
       (reference "R6") (unit 1) (value "1k") (footprint "n64adv2:R0603")
@@ -815,10 +824,10 @@
       (reference "X2") (unit 10) (value "3020-10-0300-00") (footprint "n64adv2:PAK100_2500-10")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/00c8a1c2-a1d5-4598-9f78-253afd23639f"
-      (reference "X3") (unit 1) (value "hdmi-con") (footprint "n64adv2:685119134923")
+      (reference "X3") (unit 1) (value "2000-1-2-41-00-BK") (footprint "n64adv2:hdmi_smd_shield_2000-1-2-41-00-BK")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/63398651-4f6e-4e62-9035-ee4c0ea976b7"
-      (reference "X3") (unit 2) (value "hdmi-con") (footprint "n64adv2:685119134923")
+      (reference "X3") (unit 2) (value "2000-1-2-41-00-BK") (footprint "n64adv2:hdmi_smd_shield_2000-1-2-41-00-BK")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/bfe3fc90-fb5f-403b-a751-e191f1c0a662"
       (reference "X4") (unit 1) (value "TEI0005") (footprint "n64adv2:TEI0005")

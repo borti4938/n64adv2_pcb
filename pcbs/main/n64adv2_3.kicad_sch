@@ -4,6 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (title "N64Adv2 (ADV7513)")
+    (rev "v20220729")
+    (company "Peter 'borti4938' Bartmann")
+    (comment 1 "Schematic and PCB (c) 2021, 2022 by Peter Bartmann")
+    (comment 2 "N64Adv2_20220729")
+    (comment 3 "Licensed under CERN-OHL-W v2")
+  )
+
   (lib_symbols
     (symbol "n64adv2-eagle-import:C-EUC0603" (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 1.524 0.381 0)
