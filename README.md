@@ -323,7 +323,7 @@ Do not touch 3.3V jumper as current implementation runs IO speed over specificat
 
 ##### SJ31 (SRAM A12)
 - opened: (default) use 8Mx16 memory
-- closed: use 16Mx16 memory
+- closed: use 16Mx16 memory (firmware needs adaptation to work with 16Mx16 memory)
 
 ### On flex PCB
 
