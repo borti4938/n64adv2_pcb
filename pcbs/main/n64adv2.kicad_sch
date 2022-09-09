@@ -725,7 +725,7 @@
       (reference "TP_SPDIF0") (unit 1) (value "TPB1,27") (footprint "n64adv2:B1,27")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/2d2134fc-04dc-41a0-88f2-a691a7c0b23c"
-      (reference "U1") (unit 1) (value "10M16SCE144/10M25SCE144") (footprint "n64adv2:EQFP144_2")
+      (reference "U1") (unit 1) (value "10M16SAE144/10M25SAE144") (footprint "n64adv2:EQFP144_2")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/64ae7880-ed3a-4487-9340-03c8a9b59359"
       (reference "U2") (unit 1) (value "ADV7513") (footprint "n64adv2:LQFP64_EP")
