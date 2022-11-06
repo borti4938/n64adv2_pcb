@@ -56,7 +56,7 @@ Next to it on the board there are some SMD1206 resistor and ferrite bead arrays.
 - **Main-PCB** Use PCB files (either [KiCAD-PCB design file](./pcbs/main/n64adv2.kicad_pcb) or [Gerber files](./gerber/main/)) to order your own PCB with following specs (might be not comprehensive)  
   - Size: 89.6mm x 80.0mm
   - Layer: 4
-  - FPC thickness: 1.2mm
+  - FPC thickness: 1.6mm
   - Min hole size: dia 0.3mm / ring 0.6mm or lower
   - Min trace width / spacing: 0.2mm
 - **Flex-PCB** Use PCB files (either [KiCAD-PCB design file](./pcbs/flex/rcp2n64adv2.kicad_pcb) or [Gerber files](./gerber/full_flex/)) to order your own PCB with following specs (might be not comprehensive)  
@@ -124,10 +124,10 @@ You will need the following parts for it:
 
 1. N64Adv2 PCB
 2. Flex Cable
-3. A set of washers (M3)
+3. Two to four of washers (M3)
 4. Thermal pad
   - Cut Mod: appr. 1mm to 1.5mm thickness
-  - No Cut Mod: appr. 2mm to 2.5mm thickness
+  - No Cut Mod: appr. 2.5mm to 3.0mm thickness
 5. 3D printed parts:
   - Cut Mod: [round filler](./prints_3d/Filler_Round.stl), [JTAG spacer](./prints_3d/N64ADV2_JTAG_Spacer_v1p1.stl) and [MultiOut replacement](./prints_3d/N64Adv2_Half-Cut_v1p1.stl)
   - No Cut Mod: [PCB lift bracket](./prints_3d/N64Adv2_lift.stl) and [MultiOut replacement](./prints_3d/N64Adv2_No-Cut_v1.stl)
@@ -197,7 +197,6 @@ Apply solder to all pins.
 Double check for shorts and good connections with a continuity tester of a digital multimeter.
 
 Solder 3.3V, 5V, Reset and Controller legs to the N64 as shown.
-If your cable has a tiny IC on the controller leg, you need to run another 3.3V connection wire.
 
 ![](./doc/img/n64adv2_full_flex.jpg)
 
@@ -211,7 +210,6 @@ Short summary:
   - reset from PIF-NUS pin 27
   - Controller from PIF-NUS pin 16  
   (Make sure that PIF-NUS pin 16 is connected to the middle pin of controller port 1, otherwise search for a suitable connection point)
-  - Connect another 3.3V power rail, e.g. from U140
 - If you have a CPLD-based RGB mod, you can use J3 to setup VI-DeBlur on that mod over the N64Adv2
   - J3 has two pads: the left one (directly above the N64Adv2 logo) is the feedback signal, the other one is GND.
     Use a DMM if you are unsure (the GND pad has connection to any GND point on the N64 mainboard if flex is installed)
@@ -280,7 +278,6 @@ More details on that can be found in the [UltraPIF Repository](https://github.co
 Once the UltraPIF Adapter sits in its place, you can reconnect the reset and controller connections of the flex cable.
 
 For the controller connection, you can use the _CON_ pad on the adapter.
-Do not forget to connect 3.3V if U1 is on your flex cable.
 
 For the reset connection you have to go for pin 27 on the adapter.
 **DO NOT USE THE _RST_ PAD!** as it acts as an input only.
