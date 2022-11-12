@@ -129,8 +129,8 @@ You will need the following parts for it:
   - Cut Mod: appr. 1mm to 1.5mm thickness
   - No Cut Mod: appr. 2.5mm to 3.0mm thickness
 5. 3D printed parts:
-  - Cut Mod: [round filler](./prints_3d/Filler_Round.stl), [JTAG spacer](./prints_3d/N64ADV2_JTAG_Spacer_v1p1.stl) and [MultiOut replacement](./prints_3d/N64Adv2_Half-Cut_v1p1.stl)
-  - No Cut Mod: [PCB lift bracket](./prints_3d/N64Adv2_lift.stl) and [MultiOut replacement](./prints_3d/N64Adv2_No-Cut_v1.stl)
+  - Cut Mod: [USB port round filler](./prints_3d/HalfCut/N64Adv2_USB_RoundFiller.stl), [JTAG spacer](./prints_3d/HalfCut/N64Adv2_JTAG_Spacer.stl) and [MultiOut replacement](./prints_3d/HalfCut/N64Adv2_MultiOut_HalfCut.stl)
+  - No Cut Mod: [PCB lift bracket](./prints_3d/NoCut/N64Adv2_PCB_lift.stl) and [MultiOut replacement](./prints_3d/NoCut/N64Adv2_MultiOut_NoCut.stl)
 
 #### 2.1 Shell Preparation Cut Mod
 
