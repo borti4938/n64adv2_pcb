@@ -530,16 +530,16 @@
       (reference "D22") (unit 1) (value "RCLAMP0524PATCT") (footprint "n64adv2:HDMI_RCLAMP")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/25c97741-d0da-4efc-a99f-bd32e98fef10"
-      (reference "D23") (unit 1) (value "NUP4114") (footprint "n64adv2:SOT-23-6")
+      (reference "D23") (unit 1) (value "NUP4114HMR6T1G") (footprint "n64adv2:SOT-23-6")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/e14d8563-e7d8-4051-9278-b2935afad97b"
-      (reference "D23") (unit 2) (value "NUP4114") (footprint "n64adv2:SOT-23-6")
+      (reference "D23") (unit 2) (value "NUP4114HMR6T1G") (footprint "n64adv2:SOT-23-6")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/92eaba14-1ba6-49d7-8a55-64129d195b8b"
-      (reference "D23") (unit 3) (value "NUP4114") (footprint "n64adv2:SOT-23-6")
+      (reference "D23") (unit 3) (value "NUP4114HMR6T1G") (footprint "n64adv2:SOT-23-6")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/5a880622-77c6-4576-8a7e-d1980dc401ec"
-      (reference "F1") (unit 1) (value "R-EU_R0603") (footprint "n64adv2:R0603")
+      (reference "F1") (unit 1) (value "MF-FSMF020X-2") (footprint "n64adv2:R0603")
     )
     (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/aebe486d-616c-45b7-8128-af0dd62185bf"
       (reference "FB1") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
@@ -791,7 +791,7 @@
       (reference "VDCLK1") (unit 1) (value "SMD1") (footprint "n64adv2:SMD0,8-1,6")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/2a9e6e04-ecfe-4ea9-b7fb-b0b426c7e53b"
-      (reference "X1") (unit 1) (value "Conn_01x30") (footprint "n64adv2:FH12-30S-0.5SH")
+      (reference "X1") (unit 1) (value "3-1734592-0") (footprint "n64adv2:FH12-30S-0.5SH")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/8db72d04-aa4e-4246-8b1e-434f2f787f79"
       (reference "X2") (unit 1) (value "3020-10-0300-00") (footprint "n64adv2:PAK100_2500-10")

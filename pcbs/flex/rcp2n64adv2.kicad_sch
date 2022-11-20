@@ -1525,7 +1525,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 110.49 144.78 90) (unit 1)
-    (in_bom no) (on_board yes)
+    (in_bom yes) (on_board yes)
     (uuid 6a208df9-979b-4538-9095-200a47936ed0)
     (property "Reference" "R1" (id 0) (at 110.49 142.24 90))
     (property "Value" "47" (id 1) (at 109.855 144.78 90))
