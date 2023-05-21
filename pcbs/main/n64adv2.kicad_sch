@@ -665,16 +665,16 @@
       (reference "R42") (unit 1) (value "1k58") (footprint "n64adv2:R0603")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/4d3f805b-53d2-4562-81c5-c956db5aea1d"
-      (reference "RN11") (unit 1) (value "BK32164M121-T") (footprint "n64adv2:CTS742C083")
+      (reference "RN11") (unit 1) (value "BLA31AG121SN4D") (footprint "n64adv2:CTS742C083")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/60326336-7b2b-461c-98a1-dabb6c7f4270"
-      (reference "RN12") (unit 1) (value "BK32164M121-T") (footprint "n64adv2:CTS742C083")
+      (reference "RN12") (unit 1) (value "BLA31AG121SN4D") (footprint "n64adv2:CTS742C083")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/fc65146f-31de-4f3b-a678-0e5eb0846754"
-      (reference "RN13") (unit 1) (value "BK32164M121-T") (footprint "n64adv2:CTS742C083")
+      (reference "RN13") (unit 1) (value "BLA31AG121SN4D") (footprint "n64adv2:CTS742C083")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/3dd68dde-fa6a-4678-8da5-bedcb21224da"
-      (reference "RN14") (unit 1) (value "BK32164M121-T") (footprint "n64adv2:CTS742C083")
+      (reference "RN14") (unit 1) (value "BLA31AG121SN4D") (footprint "n64adv2:CTS742C083")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/5a4ab1af-60d4-416e-8b38-9da9038b6357"
       (reference "RN15") (unit 1) (value "CAY16-103J4LF") (footprint "n64adv2:CTS742C083")
@@ -836,7 +836,7 @@
       (reference "X5") (unit 1) (value "USB3140-30-0170-0-C ") (footprint "n64adv2:USB-MICRO-VERTICAL-DIY")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/a6522efe-efaa-4294-8978-e8c504504a39"
-      (reference "Y41") (unit 1) (value "7A-27.000MAAJ-T") (footprint "n64adv2:5.0X3.2_2")
+      (reference "Y41") (unit 1) (value "445I23D27M00000") (footprint "n64adv2:5.0X3.2_2")
     )
     (path "/0a742bb2-0657-47bc-9dea-e70308e1113a/d3f78ab5-c29f-4893-bb68-e1304a0fc877"
       (reference "nRST1") (unit 1) (value "SMD1") (footprint "n64adv2:SMD0,8-1,6")
