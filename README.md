@@ -19,6 +19,10 @@ Furthermore, the clocking chip is in a 24-QFN package where the pins are partwis
 It also has an exposed pad.
 Next to it on the board there are some SMD1206 resistor and ferrite bead arrays.
 
+One note on KiCad: please do not use version 7 and stay with version 6.xx.yy, if you want to edit the PCB.
+I have to adapt the design files first before there are working as intended in version 7.
+Thanks!
+
 ## Table of Contents
 
 - [Checklist](https://github.com/borti4938/n64adv2_pcb#checklist-how-to-build-the-project)
@@ -41,7 +45,7 @@ Next to it on the board there are some SMD1206 resistor and ferrite bead arrays.
 - If you plan to use solder paste, do not forget to order a stencil for top and bottom, too
 - Source the components you need, e.g. from Mouser or Digikey.
   The BOM is available in [here](./doc/n64adv2_BOM.xlsx).
-- If you want to use a assembly service (PCBA), you can use the mounting files for [main](./doc/n64adv2-top-pos.csv), full flex-PCB and/or part flex-PCB, too.
+- If you want to use a assembly service (PCBA), you have to generate position files and BOM (in format as the fab requests it) out of the PCB design files. For JLCPCB e.g., there is a [KiCad plugin](https://github.com/Bouni/kicad-jlcpcb-tools) available (which I yet didn't test).
 - Wait for everything to arrive
 - Assemble your PCB if you haven't use a PCBA service
 - Flash the firmware ([firmware releases](https://github.com/borti4938/n64adv2_fw/releases)) after installing:
