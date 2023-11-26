@@ -640,10 +640,10 @@
     (path "/01172b30-4940-4805-b545-a15bc4c1c378/2a7d09aa-6af8-4fd8-8830-bfd57a7ed38c"
       (reference "FB2") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
     )
-    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/601be67a-3556-4643-a537-e7891171212e"
-      (reference "FB3") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
-    )
     (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/a4022b51-0570-4266-92ff-ff9100c84f7e"
+      (reference "FB11") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
+    )
+    (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/601be67a-3556-4643-a537-e7891171212e"
       (reference "FB12") (unit 1) (value "MPZ1608S221A") (footprint "n64adv2:R0603")
     )
     (path "/32e16eb1-1376-41dc-855b-91a51fa589a6/f2cea19d-f80c-460b-b19f-cd2ae20ae1b0"
