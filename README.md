@@ -32,7 +32,8 @@ Thanks!
   - [1. Open the Console](https://github.com/borti4938/n64adv2_pcb#1-open-the-console)
   - [2. Preparation](https://github.com/borti4938/n64adv2_pcb#2-preparation)
   - [3. Solder Work](https://github.com/borti4938/n64adv2_pcb#3-solder-work)
-  - [4. Put Everything Together](https://github.com/borti4938/n64adv2_pcb#4-put-everything-together)
+  - [4. Testing Installtion](https://github.com/borti4938/n64adv2_pcb#4-testing-installation)
+  - [5. Put Everything Together](https://github.com/borti4938/n64adv2_pcb#5-put-everything-together)
 - [Installation with UltraPIF](https://github.com/borti4938/n64adv2_pcb#installation-with-ultrapif)
 - [Jumper Description](https://github.com/borti4938/n64adv2_pcb#jumper-description)
 
@@ -66,11 +67,13 @@ Thanks!
 - **Flex-PCB** Use PCB files (either [KiCAD-PCB design file](./pcbs/flex/rcp2n64adv2.kicad_pcb) or [Gerber files](./gerber/full_flex/)) to order your own PCB with following specs (might be not comprehensive)  
   - Size: 129.6mm x 25.0mm
   - Layer: 2
-  - FPC thickness: 0.15mm
+  - FPC thickness: 0.15mm \[1\]
   - Min hole size: dia 0.25mm / ring 0.45mm or lower
   - Min trace width / spacing: 0.2mm
   - Stiffener: PI top + bottom
-  - Stiffener thickness: 0.15mm
+  - Stiffener thickness: 0.15mm \[1\]
+
+\[1\] You may have to vary FPC thickness and stiffener thickness depending on the prototype service you are going with. E.g., on my last order I opted for 0.12mm PCB thickness and 0.225mm polyimide thickness.
 
 ## Assembly
 
@@ -219,8 +222,40 @@ Short summary:
     Use a DMM if you are unsure (the GND pad has connection to any GND point on the N64 mainboard if flex is installed)
   - J3 signal pad is high on VI-DeBlur disabled and goes low if enabled
 
+#### 3.2a Flex Cable Version 20231105 (and later)
 
-#### 4. Put Everything Together
+With Version 20231105 the flex cable was redesigned at the ends to controller and reset connection at the PIF-NUS.
+
+![](./doc/img/flex_20231105.jpg)
+
+Changes were:
+- No components anymore on the thin cable ends for easier handling
+- Using a single gate buffer (U1) for the controller line is now mandatory.
+- Backup pads for controller and reset connection of the thin cable breaks.
+  If cable breaks you can simply cut off the broken cable end and route a separate wire from PIF pin to the backup pad.
+
+![](./doc/img/flex_20231105_backup.jpg)
+
+#### 4. Testing Installation
+
+At this point it is a good idea to test your installtion.
+
+First you should check for some obvious short at the power rails, e.g. between 3.3V and GND, and between 5V and GND.
+If the N64Adv2 board is connected with the flex, you can simply use the input pads on the N64Adv2 board.
+
+Insert a game cartridge, connect HDMI and power, and turn on your N64!
+**Important:** If you do not have heatsinks attached to your N64, only test for a brief moment.
+
+Obviously, the firmware of the N64Adv2 must be flashed to the FPGA.
+
+If you see a picture with game output and here some game audio, then everything might be ok.
+It's a good idea to run the debug-screen for a quick check.
+If something is not ok, the N64Adv2 hardware should boot into the debug screen by default.
+Then you have to go for debugging your installation.
+
+Additional information on flashing the firmware and how to debug with the debug screen, can be found the [firmwares repository](https://github.com/borti4938/n64adv2_fw).
+
+#### 5. Put Everything Together
 
 Secure your installation from shorts to the top RF shield with some insulation tape.
 There is a risk for shorts where the controller leg of the full flex is routed.
@@ -250,6 +285,7 @@ Secure the N64 with two or three screws and make a small test to see if everythi
 Do not forget to put in the Jumper Pak or Expansion Pak, otherwise you won't see a picture at all.
 
 If everything works fine, close the whole shell.
+
 
 
 ## Installation with UltraPIF
@@ -305,16 +341,24 @@ This section is only for documentation purposes.
 
 ##### SJ1 to SJ4 (IO power supply for FPGA Bank 6 and 7)
 
+**Section is outdated. Jumpers had been removed with version 20231119**
+
 Bank B6 and B7 needs 2.5V VCCIO for current implementation.
 Since N64Adv2_202200415, these jumpers are closed by default at 2.5V.
 Earlier prototypes need a solder joint at 2.5V.
 Do not touch 3.3V jumper as current implementation runs IO speed over specifications then.
 
 ##### SJ5 (5V power via USB port (X5))
+
+**Section is outdated. Jumper has been removed with version 20231119**
+
 - opened: (default) disable 5V power via USB
 - closed: enable 5V power via USB
 
 ##### SJ6 (3.3V power via JTAG programmer X4)
+
+**Section is outdated. Jumper has been removed with version 20231119**
+
 - opened: (default) disable 3.3V power via JTAG programmer
 - closed: enable 3.3V power via JTAG programmer
 
@@ -323,12 +367,18 @@ Do not touch 3.3V jumper as current implementation runs IO speed over specificat
 - closed: (default by a trace) feedback enabled
 
 ##### SJ31 (SRAM A12)
+
+**Section is outdated. Jumper has been removed with version 20231119**
+
 - opened: (default) use 8Mx16 memory
 - closed: use 16Mx16 memory (firmware needs adaptation to work with 16Mx16 memory)
 
 ### On flex PCB
 
 ##### SJ1
+
+**Section is outdated. Jumpers had been removed with version 20231105**
+
 - opened: use with Schmitt trigger buffer (U1 and C1)
 - closed: close jumper if you do not use Schmitt trigger buffer (U1 and C1)
 
