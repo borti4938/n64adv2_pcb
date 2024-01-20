@@ -75,6 +75,9 @@ Thanks!
 
 \[1\] You may have to vary FPC thickness and stiffener thickness depending on the prototype service you are going with. E.g., on my last order I opted for 0.12mm PCB thickness and 0.225mm polyimide thickness.
 
+Also note, if you build the flex PCB for the [ PicoDVI-N64_PCB](https://github.com/dalogue1/PicoDVI-N64_PCB) by dalogue1, use different components on the flex to get it work (RN1 - RN4 differs).
+A adapted BOM is provided [here](./doc/n64adv2_flex_for_picodvi.xlsx).
+
 ## Assembly
 
 If you have all components available, you can start assembly your board.
